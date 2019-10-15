@@ -1,0 +1,162 @@
+body {
+    background-color: #333333;
+    margin: 0px;
+}
+
+.logo {
+    order: 1;
+    width: 80vw;
+    min-width: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Harry_Potter_API/Assets/HarryPotterMainDesktop1.png);
+    background-size: cover;
+    box-shadow: 0px 1px 10px 0px black;
+}
+
+    @media screen and (max-width: 1159px) {
+        .header {
+            background-image: url(../Harry_Potter_API/Assets/HarryPotterMax1159.png);
+            background-size: cover;
+            min-width: 1025px;
+            }
+}
+
+
+    @media screen and (max-width: 1024px) {
+        .header {
+            background-image: url(../Harry_Potter_API/Assets/HarryPotterMax1024.png);
+            background-size: cover;
+            min-width: 770px;
+            }
+}
+   
+
+    @media screen and (max-width: 769px) {
+        .header {
+            background-image: url(../Harry_Potter_API/Assets/HarryPotterMax769.png);
+            background-size: cover;
+            min-width: 726px;
+            }
+}
+
+@media screen and (max-width: 725px) {
+    .header {
+        background-image: url(../Harry_Potter_API/Assets/HarryPotterMax725.png);
+        background-size: cover;
+        min-width: 415px;
+        }
+}
+
+@media screen and (max-width: 414px) {
+    ​​.header {
+        background-image: url(../Harry_Potter_API/Assets/HarryPotterMax414.png);
+        background-size: cover;
+        min-width: 401px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ​​.header {
+        background-image: url(../Harry_Potter_API/Assets/HarryPotterMax400.png);
+        background-size: cover;
+        min-width: 376px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        background-image: url(../Harry_Potter_API/Assets/HarryPotterMax375.png);
+        background-size: cover;
+        min-width: 331px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .header {
+        background-image: url(../Harry_Potter_API/Assets/HarryPotterMax330.png);
+        background-size: cover;
+        min-width: 0px;
+    }
+}
+
+.rulesArea {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 500px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.paragraph1 {
+    order: 1;
+    font-family: 'Grenze', serif;
+    color: whitesmoke;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.paragraph2 {
+    order: 2;
+    font-family: 'Buenard', serif;
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.sortButton {
+    order: 3;
+    font-size: 2em;
+    font-family: 'Grenze', serif;
+    color: #333333;
+    width: 70vw;
+    background: rgb(255,223,0);
+    background: radial-gradient(circle, rgba(255,223,0,1) 16%, rgba(212,175,55,1) 79%);
+    border: none;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+/*font-family: 'Marck Script', cursive;
+font-family: 'Grenze', serif;
+font-family: 'Amiri', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Lustria', serif;
+font-family: 'Buenard', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Signika', sans-serif;
+font-family: 'News Cycle', sans-serif;*/
