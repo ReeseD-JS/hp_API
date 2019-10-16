@@ -98,7 +98,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     width: 100vw;
-    height: 500px;
+    
     align-items: center;
     justify-content: flex-start;
 }
@@ -141,6 +141,58 @@ body {
     padding-bottom: 10px;
     letter-spacing: 1px;
     border-radius: 15px 15px 15px 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lists {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    top: 0px;
+    padding-top: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gryffindorList {
+    order: 1;
+}
+
+.hufflepuffList {
+    order: 2;
+}
+
+.ravenclawList {
+    order: 3;
+}
+
+.slytherinList {
+    order: 4;
+}
+
+.gryffindor {
+    width: 15vw;
+    min-width: 195px;
+}
+
+.hufflepuff {
+    width: 15vw;
+    min-width: 195px;
+}
+
+.ravenclaw {
+    width: 15vw;
+    min-width: 195px;
+}
+
+.slytherin {
+    width: 15vw;
+    min-width: 195px;
 }
 
 
