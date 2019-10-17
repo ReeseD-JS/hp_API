@@ -50,12 +50,12 @@ function sortDaMembers(json) {
                 raveListItem.innerText = member.name;
             
                 ravenclaw.appendChild(raveListItem);
-            } /*else if ()
+            } 
             let slythListItem = document.createElement('li');
 
                 slythListItem.innerText = 'Jk lolol';
             
-                slytherin.appendChild(slythListItem);*/
+                slytherin.appendChild(slythListItem);
         }
     }
 }

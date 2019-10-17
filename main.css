@@ -23,14 +23,14 @@ body {
     margin-top: 0px;
     align-items: center;
     justify-content: center;
-    background-image: url(../Assets/HarryPotterMainDesktop1.png);
+    background-image: url(./Assets/HarryPotterMainDesktop1.png);
     background-size: cover;
     box-shadow: 0px 1px 10px 0px black;
 }
 
     @media screen and (max-width: 1159px) {
         .header {
-            background-image: url(../Assets/HarryPotterMax1159.png);
+            background-image: url(./Assets/HarryPotterMax1159.png);
             background-size: cover;
             min-width: 1025px;
             }
@@ -39,7 +39,7 @@ body {
 
     @media screen and (max-width: 1024px) {
         .header {
-            background-image: url(../Assets/HarryPotterMax1024.png);
+            background-image: url(./Assets/HarryPotterMax1024.png);
             background-size: cover;
             min-width: 770px;
             }
@@ -48,7 +48,7 @@ body {
 
     @media screen and (max-width: 769px) {
         .header {
-            background-image: url(../Assets/HarryPotterMax769.png);
+            background-image: url(./Assets/HarryPotterMax769.png);
             background-size: cover;
             min-width: 726px;
             }
@@ -56,7 +56,7 @@ body {
 
 @media screen and (max-width: 725px) {
     .header {
-        background-image: url(../Assets/HarryPotterMax725.png);
+        background-image: url(./Assets/HarryPotterMax725.png);
         background-size: cover;
         min-width: 415px;
         }
@@ -64,7 +64,7 @@ body {
 
 @media screen and (max-width: 414px) {
     ​​.header {
-        background-image: url(../Assets/HarryPotterMax414.png);
+        background-image: url(./Assets/HarryPotterMax414.png);
         background-size: cover;
         min-width: 401px;
     }
@@ -72,7 +72,7 @@ body {
 
 @media screen and (max-width: 400px) {
     ​​.header {
-        background-image: url(../Assets/HarryPotterMax400.png);
+        background-image: url(./Assets/HarryPotterMax400.png);
         background-size: cover;
         min-width: 376px;
     }
@@ -80,7 +80,7 @@ body {
 
 @media screen and (max-width: 375px) {
     .header {
-        background-image: url(../Assets/HarryPotterMax375.png);
+        background-image: url(./Assets/HarryPotterMax375.png);
         background-size: cover;
         min-width: 331px;
     }
@@ -88,7 +88,7 @@ body {
 
 @media screen and (max-width: 330px) {
     .header {
-        background-image: url(../Assets/HarryPotterMax330.png);
+        background-image: url(./Assets/HarryPotterMax330.png);
         background-size: cover;
         min-width: 0px;
     }
@@ -155,7 +155,7 @@ ul {
     padding-top: 30px;
     margin-left: 0px;
     margin-top: 0px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -195,6 +195,27 @@ ul {
     min-width: 195px;
 }
 
+li {
+    font-family: 'Grenze', serif;
+    color: whitesmoke;
+    font-size: 1.6em;
+}
+
+#gryffindor {
+    align-items: center;
+}
+
+#ravenclaw {
+    align-items: center;
+}
+
+#hufflepuff {
+    align-items: center;
+}
+
+#slytherin {
+    align-items: center;
+}
 
 /*font-family: 'Marck Script', cursive;
 font-family: 'Grenze', serif;
